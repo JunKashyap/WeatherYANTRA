@@ -78,7 +78,6 @@ function Homepage() {
         if (localStorage.getItem('marked_fav') === null){
             localStorage.setItem('marked_fav', )
         }else{
-            console.log("Hello");
             const currentValue = localStorage.getItem('marked_fav');
             const currentValueArray = JSON.parse(currentValue) || [];
             currentValueArray.push(JSON.stringify(locationInfo));
