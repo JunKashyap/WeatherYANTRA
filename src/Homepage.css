@@ -23,7 +23,13 @@
     width: 100%;
     height: 100vh;
 }
+.markFav{
+    cursor: pointer;
+}
 
+.markFav:hover{
+    color: #4CAF50;
+}
 .Clear {
     text-align: center;
     /*  */
@@ -235,6 +241,11 @@
 /* Style the dropdown button */
 .dropbtn {
     cursor: pointer;
+    padding: 3px;
+}
+
+.dropbtn:hover{
+    color: #4CAF50;
 }
 
 /* Style the dropdown content */
