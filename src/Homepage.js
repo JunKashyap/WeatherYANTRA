@@ -75,17 +75,8 @@ function Homepage() {
             type: "FAV_LOCATION",
             values: locationInfo
         })
-        if (localStorage.getItem('marked_fav') === null){
-            localStorage.setItem('marked_fav', )
-        }else{
-            const currentValue = localStorage.getItem('marked_fav');
-            const currentValueArray = JSON.parse(currentValue) || [];
-            currentValueArray.push(JSON.stringify(locationInfo));
-            localStorage.setItem('myKey', JSON.stringify(currentValueArray));
-        }
     }
     
-    console.log(locationInfo);
     return (
         <>
             {weather !== null &&
